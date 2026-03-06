@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftOnServerScale2026}",
+            "name": "Debug PollsApp",
+            "target": "PollsApp",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug PollsApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftOnServerScale2026}",
+            "name": "Release PollsApp",
+            "target": "PollsApp",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release PollsApp"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Docs.docc"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [
+			{
+				"type": "swift",
+				"request": "launch",
+				"args": [],
+				"cwd": "${workspaceFolder:SwiftOnServerScale2026}",
+				"name": "Debug PollsApp (SwiftOnServerScale2026)",
+				"target": "PollsApp",
+				"configuration": "debug",
+				"preLaunchTask": "swift: Build Debug PollsApp (SwiftOnServerScale2026)"
+			},
+			{
+				"type": "swift",
+				"request": "launch",
+				"args": [],
+				"cwd": "${workspaceFolder:SwiftOnServerScale2026}",
+				"name": "Release PollsApp (SwiftOnServerScale2026)",
+				"target": "PollsApp",
+				"configuration": "release",
+				"preLaunchTask": "swift: Build Release PollsApp (SwiftOnServerScale2026)"
+			}
+		]
+	}
+}
